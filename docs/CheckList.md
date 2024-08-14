@@ -1,0 +1,12 @@
+- [x] MangoDB Setup
+- [ ] Amazon S3 Setup
+- [ ] Rabbit MQ Setup
+- [x] JIRA Setup
+- [x] Github Repo setup
+- [ ] Repo branches setup
+- [ ] Document Site setup
+- [x] Server structure
+- [ ] Employee frontend structure
+- [ ] Github workflow
+- [ ] Github actions
+- [ ] Jenkins CI/CD
