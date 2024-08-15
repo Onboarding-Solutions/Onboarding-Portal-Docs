@@ -95,7 +95,7 @@ const config = {
               },
               {
                 label: "Common Components",
-                to: "/docs/react-wmployee-portal/components/intro",
+                to: "/docs/react-employee-portal/components/intro",
               },
               {
                 label: "Github Workflow",
