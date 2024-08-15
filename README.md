@@ -1,13 +1,41 @@
-# Onboarding-Portal-Docs
+# Website
 
-Welcome to the **Onboarding-Portal-Docs** project documentation platform! This repository serves as a central place where we document key aspects of our team's development activities.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
-## Overview
-- **Team Development Notes**: We keep track of our project progress, discussions, and other relevant information here.
-- **API Documentation**: Our API documentation is also included in this repository.
+### Installation
 
-Currently, we are using Markdown files to document everything directly in this GitHub repository. 
+```
+$ yarn
+```
 
-Please note that this is a temporary setup. I plan to migrate this content to another platform or establish an online documentation site for easier access and preview in the near future.
+### Local Development
 
-**Important:** All commits in this repository are made directly to the main branch, with no additional branches. Every team member is encouraged to commit their changes directly.
+```
+$ yarn start
+```
+
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+
+### Build
+
+```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

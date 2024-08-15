@@ -1,4 +1,4 @@
-## GitHub Workflow
+# Github Workflow
 
 ### **Branching Strategy**
 When working on any feature, it is critical to follow a structured branching strategy to maintain code integrity and simulate a professional working environment. Here's the approach we will enforce:
