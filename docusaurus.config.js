@@ -59,10 +59,22 @@ const config = {
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
+            sidebarId: "serverDocsSidebar",
             position: "left",
-            label: "Tutorial",
+            label: "Server",
+            to: "/docs/category/server",
+          },
+          {
+            sidebarId: "reactEmployeeDocsSidebar",
+            position: "left",
+            label: "React Employee",
+            to: "/docs/category/react---employee-portal",
+          },
+          {
+            sidebarId: "angularHRDocsSidebar",
+            position: "left",
+            label: "Angular HR",
+            to: "/docs/category/angular---hr-portal",
           },
           {
             href: "https://github.com/Onboarding-Solutions",
@@ -79,15 +91,15 @@ const config = {
             items: [
               {
                 label: "API",
-                to: "/docs/intro",
+                to: "/docs/server/api/intro",
               },
               {
-                label: "Components",
-                to: "/docs/intro",
+                label: "Common Components",
+                to: "/docs/react-wmployee-portal/components/intro",
               },
               {
                 label: "Github Workflow",
-                to: "/docs/intro",
+                to: "/docs/development-docs/github-workflow",
               },
             ],
           },

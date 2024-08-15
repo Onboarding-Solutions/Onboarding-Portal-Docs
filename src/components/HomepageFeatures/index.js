@@ -1,11 +1,12 @@
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
     title: 'Server Documentation',
-    url: 'https://expressjs.com/',
+    url: '/docs/category/server',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
@@ -15,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'React - Employee Onboarding',
-    url: 'https://reactjs.org/',
+    url: '/docs/category/react---employee-portal',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
@@ -26,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Angular - HR Onboarding',
-    url: 'https://angular.io/',
+    url: '/docs/category/angular---hr-portal',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
@@ -40,10 +41,10 @@ function Feature({Svg, title, description, url}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <a href={url}><Svg className={styles.featureSvg} role="img" /></a>
+      <Link to={url}><Svg className={styles.featureSvg} role="img" /></Link>
       </div>
       <div className="text--center padding-horiz--md">
-        <Heading as="h3"><a href={url}>{title}</a></Heading>
+        <Heading as="h3"><Link to={url}>{title}</Link></Heading>
         <p>{description}</p>
       </div>
     </div>
