@@ -6,7 +6,7 @@ const config = {
   tagline: "Wonderful team!!",
   favicon: "img/favicon.ico",
 
-  url: "https://preview.onboardingsolutions.com",
+  url: "https://onboarding-solutions.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
