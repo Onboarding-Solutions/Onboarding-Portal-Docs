@@ -82,6 +82,12 @@ const config = {
             to: "/docs/category/angular---hr-portal",
           },
           {
+            sidebarId: "dailyReportsDocsSidebar",
+            position: "left",
+            label: "Daily Reports",
+            to: "/docs/category/daily-report",
+          },
+          {
             href: "https://github.com/Onboarding-Solutions",
             label: "GitHub",
             position: "right",
