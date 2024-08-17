@@ -1,6 +1,6 @@
 # How to Create Redux Toolkit Logic for a New Feature
 
-This guide will walk you through the process of creating Redux Toolkit logic for a new feature in your project. The steps include setting up the slice, API calls, thunks, and integrating the new feature into the store.
+This guide will walk you through the process of creating Redux Toolkit logic for a new feature in our project. 
 
 ---
 
