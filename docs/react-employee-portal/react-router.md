@@ -1,4 +1,4 @@
-# How to Add Your Feature Page to the Router
+# How to Add Feature Page to the Router
 
 This guide will help you add your feature page to the our project router.
 
