@@ -9,6 +9,8 @@ BUCKET=onboarding-visa
 
 ## 2. import {upload} from s3.js file.
   -> References:
+
+  
     [Multer] (https://www.npmjs.com/package/multer)
     [MulterS3] (https://www.npmjs.com/package/multer-s3)
 
@@ -19,7 +21,11 @@ BUCKET=onboarding-visa
 
 
   -> fieldName should be the name of input in front end form.
+
+  
   -> fieldName will also be the folder where the file will be store in S3 bucket
+
+  
   -> E.g.  if fieldName is 'visaDoc', the file will be stored in visaDoc foler in S3.
   
 `visaRouter.post('/visa-doc',upload.single('visaDoc'),uploadOptVisa)`
@@ -28,8 +34,14 @@ BUCKET=onboarding-visa
 
 
   -> import s3
+
+  
   -> Write a command (ListObjectsCommand is for retrieving all files).
+
+  
   -> use s3.send()
+
+  
   ->  Reference: [AWS SDK] (https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/client/s3/command/ListObjectsCommand/)
 
   
