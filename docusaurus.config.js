@@ -101,10 +101,6 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "API",
-                to: "/docs/server/api/intro",
-              },
-              {
                 label: "Common Components",
                 to: "/docs/react-employee-portal/components/intro",
               },
