@@ -1,4 +1,4 @@
-# Email Service Documentation
+# Email Service
 
 ## Overview
 
