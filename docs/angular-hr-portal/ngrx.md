@@ -200,10 +200,6 @@ export class ProfileComponent implements OnInit {
 
 ```
 
-Certainly! Here's a summary of the workflow a user should follow to add a new NgRx store feature:
-
----
-
 ## Workflow Summary
 
 1. **Create a New Feature Directory:**
